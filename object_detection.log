@@ -1,0 +1,1232 @@
+2025-08-18 02:56:34.734 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 02:56:37.745 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 02:56:37.746 | DEBUG    | __main__:__init__:115 | 🔑 API key provided: ***********************************uA2I
+2025-08-18 02:56:38.912 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 02:56:38.914 | INFO     | __main__:batch_process:506 | 🚀 Starting batch processing of 1 images
+2025-08-18 02:56:38.914 | INFO     | __main__:batch_process:507 | 📁 Output directory: batch_results
+2025-08-18 02:56:38.915 | DEBUG    | __main__:batch_process:512 | ✅ Created/verified output directory: batch_results
+2025-08-18 02:56:38.915 | INFO     | __main__:batch_process:522 | 🔄 Processing image 1/1
+2025-08-18 02:56:38.915 | DEBUG    | __main__:batch_process:523 | 📋 Current image source type: <class 'str'>
+2025-08-18 02:56:38.916 | DEBUG    | __main__:batch_process:533 | 💾 Will save to: batch_results\result_Construction-workers.jpg
+2025-08-18 02:56:38.916 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 02:56:38.916 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 02:56:38.916 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 02:56:38.916 | INFO     | __main__:load_image:151 | 📁 Loading image from file: Computer_Vision_Agent\Construction-workers.jpg
+2025-08-18 02:56:38.917 | ERROR    | __main__:load_image:154 | ❌ Image file not found: Computer_Vision_Agent\Construction-workers.jpg
+2025-08-18 02:56:38.917 | ERROR    | __main__:load_image:188 | 📁 File I/O error: Image file not found: Computer_Vision_Agent\Construction-workers.jpg
+2025-08-18 02:56:38.917 | CRITICAL | __main__:process_image:490 | ❌ Pipeline failed after 0.00s: Image file not found: Computer_Vision_Agent\Construction-workers.jpg
+2025-08-18 02:56:38.917 | ERROR    | __main__:batch_process:544 | ❌ Error processing image 1 after 0.00s: Image file not found: Computer_Vision_Agent\Construction-workers.jpg
+2025-08-18 02:56:38.918 | DEBUG    | __main__:batch_process:545 | 🔍 Error details: FileNotFoundError: Image file not found: Computer_Vision_Agent\Construction-workers.jpg
+2025-08-18 02:56:38.918 | INFO     | __main__:batch_process:551 | 📊 Batch Processing Summary:
+2025-08-18 02:56:38.918 | INFO     | __main__:batch_process:552 |    Total images: 1
+2025-08-18 02:56:38.918 | INFO     | __main__:batch_process:553 |    Successful: 0
+2025-08-18 02:56:38.918 | INFO     | __main__:batch_process:554 |    Failed: 1
+2025-08-18 02:56:38.919 | INFO     | __main__:batch_process:555 |    Total time: 0.00s
+2025-08-18 02:56:38.919 | INFO     | __main__:batch_process:556 |    Average time per image: 0.00s
+2025-08-18 02:56:38.919 | CRITICAL | __main__:batch_process:563 | ❌ All image processing failed!
+2025-08-18 02:57:01.781 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 02:57:04.748 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 02:57:04.748 | DEBUG    | __main__:__init__:115 | 🔑 API key provided: ***********************************uA2I
+2025-08-18 02:57:05.952 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 02:57:05.953 | INFO     | __main__:batch_process:506 | 🚀 Starting batch processing of 1 images
+2025-08-18 02:57:05.953 | INFO     | __main__:batch_process:507 | 📁 Output directory: batch_results
+2025-08-18 02:57:05.953 | DEBUG    | __main__:batch_process:512 | ✅ Created/verified output directory: batch_results
+2025-08-18 02:57:05.954 | INFO     | __main__:batch_process:522 | 🔄 Processing image 1/1
+2025-08-18 02:57:05.954 | DEBUG    | __main__:batch_process:523 | 📋 Current image source type: <class 'str'>
+2025-08-18 02:57:05.954 | DEBUG    | __main__:batch_process:533 | 💾 Will save to: batch_results\result_Construction-workers.jpg
+2025-08-18 02:57:05.954 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 02:57:05.954 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 02:57:05.955 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 02:57:05.955 | INFO     | __main__:load_image:151 | 📁 Loading image from file: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:05.955 | ERROR    | __main__:load_image:154 | ❌ Image file not found: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:05.955 | ERROR    | __main__:load_image:188 | 📁 File I/O error: Image file not found: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:05.955 | CRITICAL | __main__:process_image:490 | ❌ Pipeline failed after 0.00s: Image file not found: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:05.956 | ERROR    | __main__:batch_process:544 | ❌ Error processing image 1 after 0.00s: Image file not found: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:05.956 | DEBUG    | __main__:batch_process:545 | 🔍 Error details: FileNotFoundError: Image file not found: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:05.956 | INFO     | __main__:batch_process:551 | 📊 Batch Processing Summary:
+2025-08-18 02:57:05.956 | INFO     | __main__:batch_process:552 |    Total images: 1
+2025-08-18 02:57:05.956 | INFO     | __main__:batch_process:553 |    Successful: 0
+2025-08-18 02:57:05.956 | INFO     | __main__:batch_process:554 |    Failed: 1
+2025-08-18 02:57:05.956 | INFO     | __main__:batch_process:555 |    Total time: 0.00s
+2025-08-18 02:57:05.956 | INFO     | __main__:batch_process:556 |    Average time per image: 0.00s
+2025-08-18 02:57:05.957 | CRITICAL | __main__:batch_process:563 | ❌ All image processing failed!
+2025-08-18 02:57:11.604 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 02:57:11.604 | DEBUG    | __main__:__init__:115 | 🔑 API key provided: ***********************************uA2I
+2025-08-18 02:57:12.784 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 02:57:12.784 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 02:57:12.784 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 02:57:12.784 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 02:57:12.784 | INFO     | __main__:load_image:151 | 📁 Loading image from file: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:12.784 | ERROR    | __main__:load_image:154 | ❌ Image file not found: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:12.784 | ERROR    | __main__:load_image:188 | 📁 File I/O error: Image file not found: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:12.784 | CRITICAL | __main__:process_image:490 | ❌ Pipeline failed after 0.00s: Image file not found: Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 02:57:44.733 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:02:04.874 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:02:12.365 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:02:12.366 | DEBUG    | __main__:__init__:115 | 🔑 API key provided: ***********************************uA2I
+2025-08-18 03:02:13.569 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:02:13.569 | INFO     | __main__:batch_process:506 | 🚀 Starting batch processing of 1 images
+2025-08-18 03:02:13.569 | INFO     | __main__:batch_process:507 | 📁 Output directory: batch_results
+2025-08-18 03:02:13.570 | DEBUG    | __main__:batch_process:512 | ✅ Created/verified output directory: batch_results
+2025-08-18 03:02:13.570 | INFO     | __main__:batch_process:522 | 🔄 Processing image 1/1
+2025-08-18 03:02:13.571 | DEBUG    | __main__:batch_process:523 | 📋 Current image source type: <class 'str'>
+2025-08-18 03:02:13.571 | DEBUG    | __main__:batch_process:533 | 💾 Will save to: batch_results\result_Construction-workers.jpg
+2025-08-18 03:02:13.571 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:02:13.571 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:02:13.571 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:02:13.571 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 03:02:13.572 | DEBUG    | __main__:load_image:158 | 📊 File size: 674914 bytes
+2025-08-18 03:02:13.572 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 674914 bytes from file
+2025-08-18 03:02:13.572 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:02:13.587 | DEBUG    | __main__:load_image:176 | 📏 Image dimensions: 1200x676
+2025-08-18 03:02:13.587 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:02:13.588 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.02s
+2025-08-18 03:02:13.588 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:02:13.588 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:02:13.588 | INFO     | __main__:detect_objects:227 | 📝 Using default detection prompt
+2025-08-18 03:02:13.588 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:02:13.588 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:02:32.878 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 19.29s
+2025-08-18 03:02:32.878 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 569 characters
+2025-08-18 03:02:32.878 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+    {"box_2d": [145, 633, 501, 708], "label": "construction worker"},
+    {"box_2d": [128, 141, 526, 421], "label": "concrete bucket"},
+    {"box_2d": [610, 759, 1000, 953], "label": "constr...
+2025-08-18 03:02:32.878 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:02:32.878 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 569
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+    {"box_2d": [145, 633, 501, 708], "label": "construction worker"},
+    {"box_2d": [128, 141, 526, 421], "label": "concrete bucket"},
+    {"box_2d": [610, 759, 1000, 953], "label": "construction w...
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:02:32.878 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 8 detections
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: construction worker at (145, 633, 501, 708)
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: concrete bucket at (128, 141, 526, 421)
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: construction worker at (610, 759, 1000, 953)
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: construction worker at (102, 608, 435, 663)
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: construction worker at (390, 362, 980, 574)
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: construction worker at (140, 362, 433, 541)
+2025-08-18 03:02:32.878 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: construction worker at (186, 110, 720, 255)
+2025-08-18 03:02:32.883 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 8: construction worker at (303, 2, 864, 237)
+2025-08-18 03:02:32.883 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:02:32.883 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 8 detections on image
+2025-08-18 03:02:32.883 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (1200, 676)
+2025-08-18 03:02:32.883 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:02:32.884 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:02:32.884 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:02:32.886 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/8: construction worker
+2025-08-18 03:02:32.886 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=145, xmin=633, ymax=501, xmax=708
+2025-08-18 03:02:32.886 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [759, 98, 849, 338]
+2025-08-18 03:02:32.886 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:02:32.888 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 1
+2025-08-18 03:02:32.888 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/8: concrete bucket
+2025-08-18 03:02:32.888 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=128, xmin=141, ymax=526, xmax=421
+2025-08-18 03:02:32.888 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [169, 86, 505, 355]
+2025-08-18 03:02:32.889 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for concrete bucket
+2025-08-18 03:02:32.890 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'concrete bucket' for detection 2
+2025-08-18 03:02:32.890 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/8: construction worker
+2025-08-18 03:02:32.890 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=610, xmin=759, ymax=1000, xmax=953
+2025-08-18 03:02:32.890 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [910, 412, 1143, 676]
+2025-08-18 03:02:32.890 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 3
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/8: construction worker
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=102, xmin=608, ymax=435, xmax=663
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [729, 68, 795, 294]
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 4
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/8: construction worker
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=390, xmin=362, ymax=980, xmax=574
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [434, 263, 688, 662]
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 5
+2025-08-18 03:02:32.891 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/8: construction worker
+2025-08-18 03:02:32.897 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=140, xmin=362, ymax=433, xmax=541
+2025-08-18 03:02:32.897 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [434, 94, 649, 292]
+2025-08-18 03:02:32.897 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 6
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/8: construction worker
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=186, xmin=110, ymax=720, xmax=255
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [132, 125, 306, 486]
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 7
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 8/8: construction worker
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=303, xmin=2, ymax=864, xmax=237
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [2, 204, 284, 584]
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:02:32.898 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 8
+2025-08-18 03:02:32.898 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 8/8 detections in 0.02s
+2025-08-18 03:02:32.898 | INFO     | __main__:process_image:457 | 💾 Saving result to batch_results\result_Construction-workers.jpg
+2025-08-18 03:02:32.908 | SUCCESS  | __main__:process_image:460 | ✅ Successfully saved result to batch_results\result_Construction-workers.jpg
+2025-08-18 03:02:32.908 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 19.34s
+2025-08-18 03:02:32.908 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:02:32.909 | INFO     | __main__:process_image:481 |    Total objects detected: 8
+2025-08-18 03:02:32.909 | INFO     | __main__:process_image:484 |    1. construction worker
+2025-08-18 03:02:32.909 | INFO     | __main__:process_image:484 |    2. concrete bucket
+2025-08-18 03:02:32.909 | INFO     | __main__:process_image:484 |    3. construction worker
+2025-08-18 03:02:32.909 | INFO     | __main__:process_image:484 |    4. construction worker
+2025-08-18 03:02:32.910 | INFO     | __main__:process_image:484 |    5. construction worker
+2025-08-18 03:02:32.910 | INFO     | __main__:process_image:484 |    6. construction worker
+2025-08-18 03:02:32.910 | INFO     | __main__:process_image:484 |    7. construction worker
+2025-08-18 03:02:32.910 | INFO     | __main__:process_image:484 |    8. construction worker
+2025-08-18 03:02:32.910 | SUCCESS  | __main__:batch_process:540 | ✅ Successfully processed image 1 in 19.34s
+2025-08-18 03:02:32.910 | INFO     | __main__:batch_process:551 | 📊 Batch Processing Summary:
+2025-08-18 03:02:32.911 | INFO     | __main__:batch_process:552 |    Total images: 1
+2025-08-18 03:02:32.911 | INFO     | __main__:batch_process:553 |    Successful: 1
+2025-08-18 03:02:32.911 | INFO     | __main__:batch_process:554 |    Failed: 0
+2025-08-18 03:02:32.911 | INFO     | __main__:batch_process:555 |    Total time: 19.34s
+2025-08-18 03:02:32.911 | INFO     | __main__:batch_process:556 |    Average time per image: 19.34s
+2025-08-18 03:02:32.911 | SUCCESS  | __main__:batch_process:559 | 🎉 All images processed successfully!
+2025-08-18 03:07:02.106 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:07:04.572 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:07:04.573 | DEBUG    | __main__:__init__:115 | 🔑 API key provided: ***********************************uA2I
+2025-08-18 03:07:05.826 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:07:05.826 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:07:05.826 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:07:05.826 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:07:05.826 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\potholes.jpg
+2025-08-18 03:07:05.828 | DEBUG    | __main__:load_image:158 | 📊 File size: 11678 bytes
+2025-08-18 03:07:05.828 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 11678 bytes from file
+2025-08-18 03:07:05.828 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:07:05.836 | DEBUG    | __main__:load_image:176 | 📐 Image dimensions: 300x168
+2025-08-18 03:07:05.836 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:07:05.836 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.01s
+2025-08-18 03:07:05.836 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:07:05.838 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:07:05.838 | INFO     | __main__:detect_objects:227 | 📝 Using default detection prompt
+2025-08-18 03:07:05.838 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:07:05.838 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:07:27.924 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 22.09s
+2025-08-18 03:07:27.924 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 570 characters
+2025-08-18 03:07:27.925 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+    {"box_2d": [156, 0, 1000, 1000], "label": "potholed road"},
+    {"box_2d": [121, 255, 364, 344], "label": "scooter"},
+    {"box_2d": [46, 371, 210, 467], "label": "car"},
+    {"box_2d": ...
+2025-08-18 03:07:27.925 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:07:27.925 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:07:27.925 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 570
+2025-08-18 03:07:27.925 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:07:27.925 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+    {"box_2d": [156, 0, 1000, 1000], "label": "potholed road"},
+    {"box_2d": [121, 255, 364, 344], "label": "scooter"},
+    {"box_2d": [46, 371, 210, 467], "label": "car"},
+    {"box_2d": [36, 770...
+2025-08-18 03:07:27.925 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:07:27.927 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 10 detections
+2025-08-18 03:07:27.927 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: potholed road at (156, 0, 1000, 1000)
+2025-08-18 03:07:27.928 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: scooter at (121, 255, 364, 344)
+2025-08-18 03:07:27.928 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: car at (46, 371, 210, 467)
+2025-08-18 03:07:27.928 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: car at (36, 770, 175, 914)
+2025-08-18 03:07:27.928 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: person at (62, 257, 295, 332)
+2025-08-18 03:07:27.928 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: scooter at (98, 139, 270, 202)
+2025-08-18 03:07:27.928 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: car at (57, 460, 155, 513)
+2025-08-18 03:07:27.929 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 8: car at (68, 524, 142, 574)
+2025-08-18 03:07:27.929 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 9: person at (68, 146, 216, 193)
+2025-08-18 03:07:27.929 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 10: car at (48, 650, 137, 707)
+2025-08-18 03:07:27.929 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:07:27.929 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 10 detections on image
+2025-08-18 03:07:27.929 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (300, 168)
+2025-08-18 03:07:27.929 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:07:27.930 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:07:27.931 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:07:27.931 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/10: potholed road
+2025-08-18 03:07:27.932 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=156, xmin=0, ymax=1000, xmax=1000
+2025-08-18 03:07:27.932 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [0, 26, 300, 168]
+2025-08-18 03:07:27.932 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for potholed road
+2025-08-18 03:07:27.933 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'potholed road' for detection 1
+2025-08-18 03:07:27.934 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/10: scooter
+2025-08-18 03:07:27.934 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=121, xmin=255, ymax=364, xmax=344
+2025-08-18 03:07:27.934 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [76, 20, 103, 61]
+2025-08-18 03:07:27.934 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for scooter
+2025-08-18 03:07:27.934 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'scooter' for detection 2
+2025-08-18 03:07:27.934 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/10: car
+2025-08-18 03:07:27.935 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=46, xmin=371, ymax=210, xmax=467
+2025-08-18 03:07:27.935 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [111, 7, 140, 35]
+2025-08-18 03:07:27.935 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:07:27.935 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 3
+2025-08-18 03:07:27.935 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/10: car
+2025-08-18 03:07:27.935 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=36, xmin=770, ymax=175, xmax=914
+2025-08-18 03:07:27.936 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [231, 6, 274, 29]
+2025-08-18 03:07:27.936 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:07:27.936 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 4
+2025-08-18 03:07:27.936 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/10: person
+2025-08-18 03:07:27.936 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=62, xmin=257, ymax=295, xmax=332
+2025-08-18 03:07:27.936 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [77, 10, 99, 49]
+2025-08-18 03:07:27.937 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for person
+2025-08-18 03:07:27.937 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'person' for detection 5
+2025-08-18 03:07:27.937 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/10: scooter
+2025-08-18 03:07:27.937 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=98, xmin=139, ymax=270, xmax=202
+2025-08-18 03:07:27.937 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [41, 16, 60, 45]
+2025-08-18 03:07:27.938 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for scooter
+2025-08-18 03:07:27.938 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'scooter' for detection 6
+2025-08-18 03:07:27.938 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/10: car
+2025-08-18 03:07:27.938 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=57, xmin=460, ymax=155, xmax=513
+2025-08-18 03:07:27.938 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [138, 9, 153, 26]
+2025-08-18 03:07:27.939 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:07:27.939 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 7
+2025-08-18 03:07:27.939 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 8/10: car
+2025-08-18 03:07:27.939 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=68, xmin=524, ymax=142, xmax=574
+2025-08-18 03:07:27.939 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [157, 11, 172, 23]
+2025-08-18 03:07:27.940 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:07:27.940 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 8
+2025-08-18 03:07:27.940 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 9/10: person
+2025-08-18 03:07:27.940 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=68, xmin=146, ymax=216, xmax=193
+2025-08-18 03:07:27.940 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [43, 11, 57, 36]
+2025-08-18 03:07:27.940 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for person
+2025-08-18 03:07:27.941 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'person' for detection 9
+2025-08-18 03:07:27.941 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 10/10: car
+2025-08-18 03:07:27.941 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=48, xmin=650, ymax=137, xmax=707
+2025-08-18 03:07:27.941 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [195, 8, 212, 23]
+2025-08-18 03:07:27.941 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:07:27.941 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 10
+2025-08-18 03:07:27.942 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 10/10 detections in 0.01s
+2025-08-18 03:07:27.942 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 22.12s
+2025-08-18 03:07:27.942 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:07:27.942 | INFO     | __main__:process_image:481 |    Total objects detected: 10
+2025-08-18 03:07:27.942 | INFO     | __main__:process_image:484 |    1. potholed road
+2025-08-18 03:07:27.942 | INFO     | __main__:process_image:484 |    2. scooter
+2025-08-18 03:07:27.943 | INFO     | __main__:process_image:484 |    3. car
+2025-08-18 03:07:27.943 | INFO     | __main__:process_image:484 |    4. car
+2025-08-18 03:07:27.943 | INFO     | __main__:process_image:484 |    5. person
+2025-08-18 03:07:27.943 | INFO     | __main__:process_image:484 |    6. scooter
+2025-08-18 03:07:27.943 | INFO     | __main__:process_image:484 |    7. car
+2025-08-18 03:07:27.943 | INFO     | __main__:process_image:484 |    8. car
+2025-08-18 03:07:27.944 | INFO     | __main__:process_image:484 |    9. person
+2025-08-18 03:07:27.944 | INFO     | __main__:process_image:484 |    10. car
+2025-08-18 03:07:36.580 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:07:36.583 | DEBUG    | __main__:__init__:115 | 🔑 API key provided: ***********************************uA2I
+2025-08-18 03:07:37.760 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:07:37.761 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:07:37.761 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:07:37.761 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:07:37.761 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\potholes.jpg
+2025-08-18 03:07:37.761 | DEBUG    | __main__:load_image:158 | 📊 File size: 11678 bytes
+2025-08-18 03:07:37.761 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 11678 bytes from file
+2025-08-18 03:07:37.761 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:07:37.763 | DEBUG    | __main__:load_image:176 | 📐 Image dimensions: 300x168
+2025-08-18 03:07:37.763 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:07:37.763 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.00s
+2025-08-18 03:07:37.763 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:07:37.763 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:07:37.764 | INFO     | __main__:detect_objects:224 | 📝 Using custom detection prompt
+2025-08-18 03:07:37.764 | DEBUG    | __main__:detect_objects:225 | Custom prompt: 
+        Analyze this image and detect objects from these categories: vehicles, people, animals.
+   ...
+2025-08-18 03:07:37.764 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:07:37.764 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:07:51.320 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 13.56s
+2025-08-18 03:07:51.321 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 682 characters
+2025-08-18 03:07:51.321 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+  {"box_2d": [126, 258, 362, 338], "label": "vehicles"},
+  {"box_2d": [59, 255, 273, 326], "label": "people"},
+  {"box_2d": [46, 372, 210, 466], "label": "vehicles"},
+  {"box_2d": [58, 459, ...
+2025-08-18 03:07:51.321 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:07:51.321 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:07:51.321 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 682
+2025-08-18 03:07:51.321 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:07:51.321 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+  {"box_2d": [126, 258, 362, 338], "label": "vehicles"},
+  {"box_2d": [59, 255, 273, 326], "label": "people"},
+  {"box_2d": [46, 372, 210, 466], "label": "vehicles"},
+  {"box_2d": [58, 459, 155, 513...
+2025-08-18 03:07:51.321 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:07:51.322 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 12 detections
+2025-08-18 03:07:51.322 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: vehicles at (126, 258, 362, 338)
+2025-08-18 03:07:51.322 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: people at (59, 255, 273, 326)
+2025-08-18 03:07:51.322 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: vehicles at (46, 372, 210, 466)
+2025-08-18 03:07:51.322 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: vehicles at (58, 459, 155, 513)
+2025-08-18 03:07:51.322 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: vehicles at (116, 138, 269, 198)
+2025-08-18 03:07:51.322 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: vehicles at (36, 772, 174, 915)
+2025-08-18 03:07:51.322 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: people at (64, 144, 218, 188)
+2025-08-18 03:07:51.323 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 8: vehicles at (63, 525, 140, 573)
+2025-08-18 03:07:51.323 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 9: vehicles at (50, 650, 136, 706)
+2025-08-18 03:07:51.323 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 10: people at (63, 173, 207, 205)
+2025-08-18 03:07:51.323 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 11: vehicles at (80, 775, 188, 815)
+2025-08-18 03:07:51.323 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 12: vehicles at (59, 597, 136, 624)
+2025-08-18 03:07:51.323 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:07:51.323 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 12 detections on image
+2025-08-18 03:07:51.324 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (300, 168)
+2025-08-18 03:07:51.324 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:07:51.324 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:07:51.326 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:07:51.326 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/12: vehicles
+2025-08-18 03:07:51.326 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=126, xmin=258, ymax=362, xmax=338
+2025-08-18 03:07:51.326 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [77, 21, 101, 60]
+2025-08-18 03:07:51.326 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.327 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 1
+2025-08-18 03:07:51.327 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/12: people
+2025-08-18 03:07:51.327 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=59, xmin=255, ymax=273, xmax=326
+2025-08-18 03:07:51.327 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [76, 9, 97, 45]
+2025-08-18 03:07:51.328 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for people
+2025-08-18 03:07:51.328 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'people' for detection 2
+2025-08-18 03:07:51.328 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/12: vehicles
+2025-08-18 03:07:51.328 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=46, xmin=372, ymax=210, xmax=466
+2025-08-18 03:07:51.328 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [111, 7, 139, 35]
+2025-08-18 03:07:51.329 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.329 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 3
+2025-08-18 03:07:51.329 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/12: vehicles
+2025-08-18 03:07:51.329 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=58, xmin=459, ymax=155, xmax=513
+2025-08-18 03:07:51.329 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [137, 9, 153, 26]
+2025-08-18 03:07:51.330 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.330 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 4
+2025-08-18 03:07:51.330 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/12: vehicles
+2025-08-18 03:07:51.330 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=116, xmin=138, ymax=269, xmax=198
+2025-08-18 03:07:51.330 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [41, 19, 59, 45]
+2025-08-18 03:07:51.330 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.331 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 5
+2025-08-18 03:07:51.331 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/12: vehicles
+2025-08-18 03:07:51.331 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=36, xmin=772, ymax=174, xmax=915
+2025-08-18 03:07:51.331 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [231, 6, 274, 29]
+2025-08-18 03:07:51.331 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.332 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 6
+2025-08-18 03:07:51.333 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/12: people
+2025-08-18 03:07:51.333 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=64, xmin=144, ymax=218, xmax=188
+2025-08-18 03:07:51.333 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [43, 10, 56, 36]
+2025-08-18 03:07:51.333 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for people
+2025-08-18 03:07:51.334 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'people' for detection 7
+2025-08-18 03:07:51.334 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 8/12: vehicles
+2025-08-18 03:07:51.334 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=63, xmin=525, ymax=140, xmax=573
+2025-08-18 03:07:51.334 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [157, 10, 171, 23]
+2025-08-18 03:07:51.334 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.335 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 8
+2025-08-18 03:07:51.335 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 9/12: vehicles
+2025-08-18 03:07:51.335 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=50, xmin=650, ymax=136, xmax=706
+2025-08-18 03:07:51.335 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [195, 8, 211, 22]
+2025-08-18 03:07:51.335 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.335 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 9
+2025-08-18 03:07:51.336 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 10/12: people
+2025-08-18 03:07:51.336 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=63, xmin=173, ymax=207, xmax=205
+2025-08-18 03:07:51.336 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [51, 10, 61, 34]
+2025-08-18 03:07:51.336 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for people
+2025-08-18 03:07:51.336 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'people' for detection 10
+2025-08-18 03:07:51.337 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 11/12: vehicles
+2025-08-18 03:07:51.337 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=80, xmin=775, ymax=188, xmax=815
+2025-08-18 03:07:51.337 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [232, 13, 244, 31]
+2025-08-18 03:07:51.337 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.337 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 11
+2025-08-18 03:07:51.338 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 12/12: vehicles
+2025-08-18 03:07:51.338 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=59, xmin=597, ymax=136, xmax=624
+2025-08-18 03:07:51.338 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [179, 9, 187, 22]
+2025-08-18 03:07:51.338 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:07:51.338 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 12
+2025-08-18 03:07:51.338 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 12/12 detections in 0.01s
+2025-08-18 03:07:51.339 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 13.58s
+2025-08-18 03:07:51.339 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:07:51.339 | INFO     | __main__:process_image:481 |    Total objects detected: 12
+2025-08-18 03:07:51.339 | INFO     | __main__:process_image:484 |    1. vehicles
+2025-08-18 03:07:51.339 | INFO     | __main__:process_image:484 |    2. people
+2025-08-18 03:07:51.339 | INFO     | __main__:process_image:484 |    3. vehicles
+2025-08-18 03:07:51.339 | INFO     | __main__:process_image:484 |    4. vehicles
+2025-08-18 03:07:51.340 | INFO     | __main__:process_image:484 |    5. vehicles
+2025-08-18 03:07:51.340 | INFO     | __main__:process_image:484 |    6. vehicles
+2025-08-18 03:07:51.340 | INFO     | __main__:process_image:484 |    7. people
+2025-08-18 03:07:51.340 | INFO     | __main__:process_image:484 |    8. vehicles
+2025-08-18 03:07:51.340 | INFO     | __main__:process_image:484 |    9. vehicles
+2025-08-18 03:07:51.340 | INFO     | __main__:process_image:484 |    10. people
+2025-08-18 03:07:51.341 | INFO     | __main__:process_image:484 |    11. vehicles
+2025-08-18 03:07:51.341 | INFO     | __main__:process_image:484 |    12. vehicles
+2025-08-18 03:08:55.029 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:08:57.509 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:08:57.509 | DEBUG    | __main__:__init__:115 | 🔑 API key provided 
+2025-08-18 03:08:58.739 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:08:58.740 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:08:58.740 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:08:58.740 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:08:58.740 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\potholes.jpg
+2025-08-18 03:08:58.741 | DEBUG    | __main__:load_image:158 | 📊 File size: 11678 bytes
+2025-08-18 03:08:58.741 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 11678 bytes from file
+2025-08-18 03:08:58.742 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:08:58.750 | DEBUG    | __main__:load_image:176 | 📐 Image dimensions: 300x168
+2025-08-18 03:08:58.750 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:08:58.750 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.01s
+2025-08-18 03:08:58.750 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:08:58.751 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:08:58.751 | INFO     | __main__:detect_objects:227 | 📝 Using default detection prompt
+2025-08-18 03:08:58.751 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:08:58.751 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:09:11.815 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 13.06s
+2025-08-18 03:09:11.815 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 580 characters
+2025-08-18 03:09:11.816 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+    {"box_2d": [124, 258, 363, 342], "label": "scooter"},
+    {"box_2d": [46, 371, 211, 467], "label": "car"},
+    {"box_2d": [33, 771, 172, 915], "label": "car"},
+    {"box_2d": [121, 138, ...
+2025-08-18 03:09:11.816 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:09:11.816 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:09:11.816 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 580
+2025-08-18 03:09:11.817 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:09:11.817 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+    {"box_2d": [124, 258, 363, 342], "label": "scooter"},
+    {"box_2d": [46, 371, 211, 467], "label": "car"},
+    {"box_2d": [33, 771, 172, 915], "label": "car"},
+    {"box_2d": [121, 138, 267, 206...
+2025-08-18 03:09:11.817 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:09:11.818 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 10 detections
+2025-08-18 03:09:11.819 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: scooter at (124, 258, 363, 342)
+2025-08-18 03:09:11.819 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: car at (46, 371, 211, 467)
+2025-08-18 03:09:11.819 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: car at (33, 771, 172, 915)
+2025-08-18 03:09:11.819 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: scooter at (121, 138, 267, 206)
+2025-08-18 03:09:11.819 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: road with potholes at (172, 0, 1000, 1000)
+2025-08-18 03:09:11.820 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: car at (57, 461, 157, 513)
+2025-08-18 03:09:11.820 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: puddle at (316, 781, 455, 997)
+2025-08-18 03:09:11.820 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 8: person at (58, 257, 281, 332)
+2025-08-18 03:09:11.820 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 9: person at (64, 148, 222, 191)
+2025-08-18 03:09:11.820 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 10: car at (48, 650, 137, 707)
+2025-08-18 03:09:11.820 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:09:11.821 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 10 detections on image
+2025-08-18 03:09:11.821 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (300, 168)
+2025-08-18 03:09:11.821 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:09:11.821 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:09:11.822 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:09:11.823 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/10: scooter
+2025-08-18 03:09:11.823 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=124, xmin=258, ymax=363, xmax=342
+2025-08-18 03:09:11.823 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [77, 20, 102, 60]
+2025-08-18 03:09:11.823 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for scooter
+2025-08-18 03:09:11.824 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'scooter' for detection 1
+2025-08-18 03:09:11.824 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/10: car
+2025-08-18 03:09:11.824 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=46, xmin=371, ymax=211, xmax=467
+2025-08-18 03:09:11.824 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [111, 7, 140, 35]
+2025-08-18 03:09:11.824 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:09:11.825 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 2
+2025-08-18 03:09:11.825 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/10: car
+2025-08-18 03:09:11.825 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=33, xmin=771, ymax=172, xmax=915
+2025-08-18 03:09:11.825 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [231, 5, 274, 28]
+2025-08-18 03:09:11.825 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:09:11.825 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 3
+2025-08-18 03:09:11.826 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/10: scooter
+2025-08-18 03:09:11.826 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=121, xmin=138, ymax=267, xmax=206
+2025-08-18 03:09:11.826 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [41, 20, 61, 44]
+2025-08-18 03:09:11.826 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for scooter
+2025-08-18 03:09:11.827 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'scooter' for detection 4
+2025-08-18 03:09:11.827 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/10: road with potholes
+2025-08-18 03:09:11.827 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=172, xmin=0, ymax=1000, xmax=1000
+2025-08-18 03:09:11.827 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [0, 28, 300, 168]
+2025-08-18 03:09:11.827 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for road with potholes
+2025-08-18 03:09:11.828 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'road with potholes' for detection 5
+2025-08-18 03:09:11.828 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/10: car
+2025-08-18 03:09:11.828 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=57, xmin=461, ymax=157, xmax=513
+2025-08-18 03:09:11.828 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [138, 9, 153, 26]
+2025-08-18 03:09:11.828 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:09:11.829 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 6
+2025-08-18 03:09:11.829 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/10: puddle
+2025-08-18 03:09:11.829 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=316, xmin=781, ymax=455, xmax=997
+2025-08-18 03:09:11.829 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [234, 53, 299, 76]
+2025-08-18 03:09:11.829 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for puddle
+2025-08-18 03:09:11.830 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'puddle' for detection 7
+2025-08-18 03:09:11.830 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 8/10: person
+2025-08-18 03:09:11.830 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=58, xmin=257, ymax=281, xmax=332
+2025-08-18 03:09:11.830 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [77, 9, 99, 47]
+2025-08-18 03:09:11.830 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for person
+2025-08-18 03:09:11.831 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'person' for detection 8
+2025-08-18 03:09:11.831 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 9/10: person
+2025-08-18 03:09:11.831 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=64, xmin=148, ymax=222, xmax=191
+2025-08-18 03:09:11.831 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [44, 10, 57, 37]
+2025-08-18 03:09:11.831 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for person
+2025-08-18 03:09:11.832 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'person' for detection 9
+2025-08-18 03:09:11.832 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 10/10: car
+2025-08-18 03:09:11.832 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=48, xmin=650, ymax=137, xmax=707
+2025-08-18 03:09:11.833 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [195, 8, 212, 23]
+2025-08-18 03:09:11.833 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:09:11.833 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 10
+2025-08-18 03:09:11.833 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 10/10 detections in 0.01s
+2025-08-18 03:09:11.833 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 13.09s
+2025-08-18 03:09:11.834 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:09:11.834 | INFO     | __main__:process_image:481 |    Total objects detected: 10
+2025-08-18 03:09:11.834 | INFO     | __main__:process_image:484 |    1. scooter
+2025-08-18 03:09:11.834 | INFO     | __main__:process_image:484 |    2. car
+2025-08-18 03:09:11.834 | INFO     | __main__:process_image:484 |    3. car
+2025-08-18 03:09:11.834 | INFO     | __main__:process_image:484 |    4. scooter
+2025-08-18 03:09:11.834 | INFO     | __main__:process_image:484 |    5. road with potholes
+2025-08-18 03:09:11.834 | INFO     | __main__:process_image:484 |    6. car
+2025-08-18 03:09:11.835 | INFO     | __main__:process_image:484 |    7. puddle
+2025-08-18 03:09:11.835 | INFO     | __main__:process_image:484 |    8. person
+2025-08-18 03:09:11.835 | INFO     | __main__:process_image:484 |    9. person
+2025-08-18 03:09:11.835 | INFO     | __main__:process_image:484 |    10. car
+2025-08-18 03:09:22.341 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:09:22.341 | DEBUG    | __main__:__init__:115 | 🔑 API key provided 
+2025-08-18 03:09:23.471 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:09:23.471 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:09:23.471 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:09:23.471 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:09:23.472 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\potholes.jpg
+2025-08-18 03:09:23.472 | DEBUG    | __main__:load_image:158 | 📊 File size: 11678 bytes
+2025-08-18 03:09:23.472 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 11678 bytes from file
+2025-08-18 03:09:23.473 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:09:23.473 | DEBUG    | __main__:load_image:176 | 📐 Image dimensions: 300x168
+2025-08-18 03:09:23.473 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:09:23.473 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.00s
+2025-08-18 03:09:23.474 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:09:23.474 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:09:23.474 | INFO     | __main__:detect_objects:224 | 📝 Using custom detection prompt
+2025-08-18 03:09:23.474 | DEBUG    | __main__:detect_objects:225 | Custom prompt: 
+        Analyze this image and detect objects from these categories: vehicles, people, animals.
+   ...
+2025-08-18 03:09:23.474 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:09:23.474 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:09:34.503 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 11.03s
+2025-08-18 03:09:34.503 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 848 characters
+2025-08-18 03:09:34.504 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+  {"box_2d": [121, 252, 361, 342], "label": "vehicles"},
+  {"box_2d": [57, 458, 153, 513], "label": "vehicles"},
+  {"box_2d": [47, 370, 210, 467], "label": "vehicles"},
+  {"box_2d": [108, 13...
+2025-08-18 03:09:34.504 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:09:34.504 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:09:34.504 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 848
+2025-08-18 03:09:34.504 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:09:34.505 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+  {"box_2d": [121, 252, 361, 342], "label": "vehicles"},
+  {"box_2d": [57, 458, 153, 513], "label": "vehicles"},
+  {"box_2d": [47, 370, 210, 467], "label": "vehicles"},
+  {"box_2d": [108, 137, 267, ...
+2025-08-18 03:09:34.505 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:09:34.505 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 15 detections
+2025-08-18 03:09:34.505 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: vehicles at (121, 252, 361, 342)
+2025-08-18 03:09:34.505 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: vehicles at (57, 458, 153, 513)
+2025-08-18 03:09:34.505 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: vehicles at (47, 370, 210, 467)
+2025-08-18 03:09:34.506 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: vehicles at (108, 137, 267, 203)
+2025-08-18 03:09:34.506 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: vehicles at (42, 772, 181, 911)
+2025-08-18 03:09:34.506 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: people at (66, 141, 198, 181)
+2025-08-18 03:09:34.506 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: people at (63, 170, 202, 205)
+2025-08-18 03:09:34.506 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 8: people at (62, 258, 262, 331)
+2025-08-18 03:09:34.506 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 9: vehicles at (64, 525, 140, 574)
+2025-08-18 03:09:34.506 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 10: vehicles at (50, 652, 135, 706)
+2025-08-18 03:09:34.507 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 11: vehicles at (85, 775, 192, 829)
+2025-08-18 03:09:34.507 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 12: vehicles at (69, 596, 137, 624)
+2025-08-18 03:09:34.507 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 13: people at (65, 780, 161, 815)
+2025-08-18 03:09:34.507 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 14: vehicles at (75, 619, 130, 638)
+2025-08-18 03:09:34.507 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 15: vehicles at (74, 571, 114, 582)
+2025-08-18 03:09:34.507 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:09:34.507 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 15 detections on image
+2025-08-18 03:09:34.507 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (300, 168)
+2025-08-18 03:09:34.508 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:09:34.508 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:09:34.510 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:09:34.510 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/15: vehicles
+2025-08-18 03:09:34.510 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=121, xmin=252, ymax=361, xmax=342
+2025-08-18 03:09:34.511 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [75, 20, 102, 60]
+2025-08-18 03:09:34.511 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.511 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 1
+2025-08-18 03:09:34.511 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/15: vehicles
+2025-08-18 03:09:34.511 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=57, xmin=458, ymax=153, xmax=513
+2025-08-18 03:09:34.512 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [137, 9, 153, 25]
+2025-08-18 03:09:34.512 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.512 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 2
+2025-08-18 03:09:34.512 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/15: vehicles
+2025-08-18 03:09:34.512 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=47, xmin=370, ymax=210, xmax=467
+2025-08-18 03:09:34.512 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [111, 7, 140, 35]
+2025-08-18 03:09:34.513 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.513 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 3
+2025-08-18 03:09:34.513 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/15: vehicles
+2025-08-18 03:09:34.513 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=108, xmin=137, ymax=267, xmax=203
+2025-08-18 03:09:34.513 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [41, 18, 60, 44]
+2025-08-18 03:09:34.514 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.514 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 4
+2025-08-18 03:09:34.514 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/15: vehicles
+2025-08-18 03:09:34.514 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=42, xmin=772, ymax=181, xmax=911
+2025-08-18 03:09:34.515 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [231, 7, 273, 30]
+2025-08-18 03:09:34.515 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.515 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 5
+2025-08-18 03:09:34.515 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/15: people
+2025-08-18 03:09:34.515 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=66, xmin=141, ymax=198, xmax=181
+2025-08-18 03:09:34.515 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [42, 11, 54, 33]
+2025-08-18 03:09:34.516 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for people
+2025-08-18 03:09:34.516 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'people' for detection 6
+2025-08-18 03:09:34.516 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/15: people
+2025-08-18 03:09:34.516 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=63, xmin=170, ymax=202, xmax=205
+2025-08-18 03:09:34.516 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [51, 10, 61, 33]
+2025-08-18 03:09:34.517 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for people
+2025-08-18 03:09:34.517 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'people' for detection 7
+2025-08-18 03:09:34.517 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 8/15: people
+2025-08-18 03:09:34.517 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=62, xmin=258, ymax=262, xmax=331
+2025-08-18 03:09:34.517 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [77, 10, 99, 44]
+2025-08-18 03:09:34.517 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for people
+2025-08-18 03:09:34.518 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'people' for detection 8
+2025-08-18 03:09:34.518 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 9/15: vehicles
+2025-08-18 03:09:34.518 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=64, xmin=525, ymax=140, xmax=574
+2025-08-18 03:09:34.518 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [157, 10, 172, 23]
+2025-08-18 03:09:34.518 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.518 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 9
+2025-08-18 03:09:34.519 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 10/15: vehicles
+2025-08-18 03:09:34.519 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=50, xmin=652, ymax=135, xmax=706
+2025-08-18 03:09:34.519 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [195, 8, 211, 22]
+2025-08-18 03:09:34.519 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.519 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 10
+2025-08-18 03:09:34.519 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 11/15: vehicles
+2025-08-18 03:09:34.520 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=85, xmin=775, ymax=192, xmax=829
+2025-08-18 03:09:34.520 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [232, 14, 248, 32]
+2025-08-18 03:09:34.520 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.520 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 11
+2025-08-18 03:09:34.520 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 12/15: vehicles
+2025-08-18 03:09:34.521 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=69, xmin=596, ymax=137, xmax=624
+2025-08-18 03:09:34.521 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [178, 11, 187, 23]
+2025-08-18 03:09:34.521 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.521 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 12
+2025-08-18 03:09:34.521 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 13/15: people
+2025-08-18 03:09:34.522 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=65, xmin=780, ymax=161, xmax=815
+2025-08-18 03:09:34.522 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [234, 10, 244, 27]
+2025-08-18 03:09:34.522 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for people
+2025-08-18 03:09:34.522 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'people' for detection 13
+2025-08-18 03:09:34.522 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 14/15: vehicles
+2025-08-18 03:09:34.523 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=75, xmin=619, ymax=130, xmax=638
+2025-08-18 03:09:34.523 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [185, 12, 191, 21]
+2025-08-18 03:09:34.523 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.523 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 14
+2025-08-18 03:09:34.524 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 15/15: vehicles
+2025-08-18 03:09:34.524 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=74, xmin=571, ymax=114, xmax=582
+2025-08-18 03:09:34.524 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [171, 12, 174, 19]
+2025-08-18 03:09:34.524 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for vehicles
+2025-08-18 03:09:34.524 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'vehicles' for detection 15
+2025-08-18 03:09:34.524 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 15/15 detections in 0.02s
+2025-08-18 03:09:34.525 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 11.05s
+2025-08-18 03:09:34.525 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:09:34.525 | INFO     | __main__:process_image:481 |    Total objects detected: 15
+2025-08-18 03:09:34.525 | INFO     | __main__:process_image:484 |    1. vehicles
+2025-08-18 03:09:34.525 | INFO     | __main__:process_image:484 |    2. vehicles
+2025-08-18 03:09:34.525 | INFO     | __main__:process_image:484 |    3. vehicles
+2025-08-18 03:09:34.525 | INFO     | __main__:process_image:484 |    4. vehicles
+2025-08-18 03:09:34.526 | INFO     | __main__:process_image:484 |    5. vehicles
+2025-08-18 03:09:34.526 | INFO     | __main__:process_image:484 |    6. people
+2025-08-18 03:09:34.526 | INFO     | __main__:process_image:484 |    7. people
+2025-08-18 03:09:34.526 | INFO     | __main__:process_image:484 |    8. people
+2025-08-18 03:09:34.526 | INFO     | __main__:process_image:484 |    9. vehicles
+2025-08-18 03:09:34.526 | INFO     | __main__:process_image:484 |    10. vehicles
+2025-08-18 03:09:34.526 | INFO     | __main__:process_image:484 |    11. vehicles
+2025-08-18 03:09:34.527 | INFO     | __main__:process_image:484 |    12. vehicles
+2025-08-18 03:09:34.527 | INFO     | __main__:process_image:484 |    13. people
+2025-08-18 03:09:34.527 | INFO     | __main__:process_image:484 |    14. vehicles
+2025-08-18 03:09:34.527 | INFO     | __main__:process_image:484 |    15. vehicles
+2025-08-18 03:10:17.417 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:10:20.909 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:10:20.910 | DEBUG    | __main__:__init__:115 | 🔑 API key provided 
+2025-08-18 03:10:22.131 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:10:22.131 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:10:22.132 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:10:22.132 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:10:22.132 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\potholes.jpg
+2025-08-18 03:10:22.132 | DEBUG    | __main__:load_image:158 | 📊 File size: 11678 bytes
+2025-08-18 03:10:22.133 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 11678 bytes from file
+2025-08-18 03:10:22.133 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:10:22.142 | DEBUG    | __main__:load_image:176 | 📐 Image dimensions: 300x168
+2025-08-18 03:10:22.142 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:10:22.142 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.01s
+2025-08-18 03:10:22.142 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:10:22.143 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:10:22.143 | INFO     | __main__:detect_objects:227 | 📝 Using default detection prompt
+2025-08-18 03:10:22.143 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:10:22.143 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:10:37.937 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 15.79s
+2025-08-18 03:10:37.937 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 520 characters
+2025-08-18 03:10:37.937 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+    {"box_2d": [107, 255, 361, 342], "label": "scooter"},
+    {"box_2d": [34, 770, 175, 915], "label": "car"},
+    {"box_2d": [90, 137, 269, 203], "label": "scooter"},
+    {"box_2d": [63, 25...
+2025-08-18 03:10:37.938 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:10:37.938 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:10:37.938 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 520
+2025-08-18 03:10:37.938 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:10:37.939 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+    {"box_2d": [107, 255, 361, 342], "label": "scooter"},
+    {"box_2d": [34, 770, 175, 915], "label": "car"},
+    {"box_2d": [90, 137, 269, 203], "label": "scooter"},
+    {"box_2d": [63, 258, 281, ...
+2025-08-18 03:10:37.939 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:10:37.939 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 9 detections
+2025-08-18 03:10:37.939 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: scooter at (107, 255, 361, 342)
+2025-08-18 03:10:37.940 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: car at (34, 770, 175, 915)
+2025-08-18 03:10:37.940 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: scooter at (90, 137, 269, 203)
+2025-08-18 03:10:37.940 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: person at (63, 258, 281, 331)
+2025-08-18 03:10:37.940 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: potholed road at (164, 0, 1000, 1000)
+2025-08-18 03:10:37.940 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: car at (56, 460, 155, 512)
+2025-08-18 03:10:37.940 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: car at (44, 370, 210, 465)
+2025-08-18 03:10:37.940 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 8: person at (66, 172, 213, 204)
+2025-08-18 03:10:37.941 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 9: person at (68, 143, 221, 187)
+2025-08-18 03:10:37.941 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:10:37.941 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 9 detections on image
+2025-08-18 03:10:37.941 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (300, 168)
+2025-08-18 03:10:37.941 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:10:37.941 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:10:37.943 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:10:37.943 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/9: scooter
+2025-08-18 03:10:37.943 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=107, xmin=255, ymax=361, xmax=342
+2025-08-18 03:10:37.943 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [76, 17, 102, 60]
+2025-08-18 03:10:37.944 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for scooter
+2025-08-18 03:10:37.944 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'scooter' for detection 1
+2025-08-18 03:10:37.944 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/9: car
+2025-08-18 03:10:37.944 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=34, xmin=770, ymax=175, xmax=915
+2025-08-18 03:10:37.945 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [231, 5, 274, 29]
+2025-08-18 03:10:37.945 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:10:37.945 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 2
+2025-08-18 03:10:37.945 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/9: scooter
+2025-08-18 03:10:37.945 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=90, xmin=137, ymax=269, xmax=203
+2025-08-18 03:10:37.945 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [41, 15, 60, 45]
+2025-08-18 03:10:37.946 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for scooter
+2025-08-18 03:10:37.946 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'scooter' for detection 3
+2025-08-18 03:10:37.946 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/9: person
+2025-08-18 03:10:37.946 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=63, xmin=258, ymax=281, xmax=331
+2025-08-18 03:10:37.946 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [77, 10, 99, 47]
+2025-08-18 03:10:37.946 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for person
+2025-08-18 03:10:37.946 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'person' for detection 4
+2025-08-18 03:10:37.946 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/9: potholed road
+2025-08-18 03:10:37.948 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=164, xmin=0, ymax=1000, xmax=1000
+2025-08-18 03:10:37.948 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [0, 27, 300, 168]
+2025-08-18 03:10:37.948 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for potholed road
+2025-08-18 03:10:37.948 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'potholed road' for detection 5
+2025-08-18 03:10:37.948 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/9: car
+2025-08-18 03:10:37.949 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=56, xmin=460, ymax=155, xmax=512
+2025-08-18 03:10:37.949 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [138, 9, 153, 26]
+2025-08-18 03:10:37.949 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:10:37.949 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 6
+2025-08-18 03:10:37.949 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/9: car
+2025-08-18 03:10:37.950 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=44, xmin=370, ymax=210, xmax=465
+2025-08-18 03:10:37.950 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [111, 7, 139, 35]
+2025-08-18 03:10:37.950 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:10:37.950 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 7
+2025-08-18 03:10:37.950 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 8/9: person
+2025-08-18 03:10:37.951 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=66, xmin=172, ymax=213, xmax=204
+2025-08-18 03:10:37.951 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [51, 11, 61, 35]
+2025-08-18 03:10:37.951 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for person
+2025-08-18 03:10:37.951 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'person' for detection 8
+2025-08-18 03:10:37.951 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 9/9: person
+2025-08-18 03:10:37.952 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=68, xmin=143, ymax=221, xmax=187
+2025-08-18 03:10:37.952 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [42, 11, 56, 37]
+2025-08-18 03:10:37.952 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for person
+2025-08-18 03:10:37.952 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'person' for detection 9
+2025-08-18 03:10:37.952 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 9/9 detections in 0.01s
+2025-08-18 03:10:37.953 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 15.82s
+2025-08-18 03:10:37.953 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:10:37.953 | INFO     | __main__:process_image:481 |    Total objects detected: 9
+2025-08-18 03:10:37.953 | INFO     | __main__:process_image:484 |    1. scooter
+2025-08-18 03:10:37.953 | INFO     | __main__:process_image:484 |    2. car
+2025-08-18 03:10:37.953 | INFO     | __main__:process_image:484 |    3. scooter
+2025-08-18 03:10:37.953 | INFO     | __main__:process_image:484 |    4. person
+2025-08-18 03:10:37.953 | INFO     | __main__:process_image:484 |    5. potholed road
+2025-08-18 03:10:37.954 | INFO     | __main__:process_image:484 |    6. car
+2025-08-18 03:10:37.954 | INFO     | __main__:process_image:484 |    7. car
+2025-08-18 03:10:37.954 | INFO     | __main__:process_image:484 |    8. person
+2025-08-18 03:10:37.954 | INFO     | __main__:process_image:484 |    9. person
+2025-08-18 03:10:47.049 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:10:47.049 | DEBUG    | __main__:__init__:115 | 🔑 API key provided 
+2025-08-18 03:10:48.204 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:10:48.204 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:10:48.204 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:10:48.205 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:10:48.205 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\potholes.jpg
+2025-08-18 03:10:48.205 | DEBUG    | __main__:load_image:158 | 📊 File size: 11678 bytes
+2025-08-18 03:10:48.206 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 11678 bytes from file
+2025-08-18 03:10:48.206 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:10:48.207 | DEBUG    | __main__:load_image:176 | 📐 Image dimensions: 300x168
+2025-08-18 03:10:48.207 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:10:48.207 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.00s
+2025-08-18 03:10:48.207 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:10:48.207 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:10:48.207 | INFO     | __main__:detect_objects:224 | 📝 Using custom detection prompt
+2025-08-18 03:10:48.207 | DEBUG    | __main__:detect_objects:225 | Custom prompt: 
+        Analyze this image and detect objects from these categories: vehicles, people, animals.
+   ...
+2025-08-18 03:10:48.207 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:10:48.207 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:12:13.548 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:12:31.658 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:12:34.706 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:12:34.707 | DEBUG    | __main__:__init__:115 | 🔑 API key provided: ***********************************uA2I
+2025-08-18 03:12:35.934 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:12:35.935 | INFO     | __main__:batch_process:506 | 🚀 Starting batch processing of 1 images
+2025-08-18 03:12:35.935 | INFO     | __main__:batch_process:507 | 📁 Output directory: batch_results
+2025-08-18 03:12:35.936 | DEBUG    | __main__:batch_process:512 | ✅ Created/verified output directory: batch_results
+2025-08-18 03:12:35.936 | INFO     | __main__:batch_process:522 | 🔄 Processing image 1/1
+2025-08-18 03:12:35.936 | DEBUG    | __main__:batch_process:523 | 📋 Current image source type: <class 'str'>
+2025-08-18 03:12:35.936 | DEBUG    | __main__:batch_process:533 | 💾 Will save to: batch_results\result_fruits_basket.jpg
+2025-08-18 03:12:35.936 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:12:35.936 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:12:35.936 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:12:35.938 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\fruits_basket.jpg
+2025-08-18 03:12:35.938 | DEBUG    | __main__:load_image:158 | 📊 File size: 7469 bytes
+2025-08-18 03:12:35.939 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 7469 bytes from file
+2025-08-18 03:12:35.939 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:12:35.947 | DEBUG    | __main__:load_image:176 | 📏 Image dimensions: 225x224
+2025-08-18 03:12:35.948 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:12:35.948 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.01s
+2025-08-18 03:12:35.948 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:12:35.948 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:12:35.948 | INFO     | __main__:detect_objects:227 | 📝 Using default detection prompt
+2025-08-18 03:12:35.948 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:12:35.949 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:12:58.591 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 22.64s
+2025-08-18 03:12:58.592 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 851 characters
+2025-08-18 03:12:58.592 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+    {"box_2d": [13, 357, 483, 626], "label": "pineapple"},
+    {"box_2d": [573, 133, 938, 813], "label": "woven basket"},
+    {"box_2d": [239, 597, 617, 818], "label": "bananas"},
+    {"box_...
+2025-08-18 03:12:58.592 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:12:58.592 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:12:58.593 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 851
+2025-08-18 03:12:58.593 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:12:58.593 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+    {"box_2d": [13, 357, 483, 626], "label": "pineapple"},
+    {"box_2d": [573, 133, 938, 813], "label": "woven basket"},
+    {"box_2d": [239, 597, 617, 818], "label": "bananas"},
+    {"box_2d": [54...
+2025-08-18 03:12:58.593 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:12:58.594 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 14 detections
+2025-08-18 03:12:58.594 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: pineapple at (13, 357, 483, 626)
+2025-08-18 03:12:58.594 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: woven basket at (573, 133, 938, 813)
+2025-08-18 03:12:58.594 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: bananas at (239, 597, 617, 818)
+2025-08-18 03:12:58.594 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: grapes at (542, 112, 810, 307)
+2025-08-18 03:12:58.594 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: purple bow at (629, 342, 978, 689)
+2025-08-18 03:12:58.594 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: green apple at (497, 226, 631, 362)
+2025-08-18 03:12:58.595 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: red apple at (483, 424, 606, 555)
+2025-08-18 03:12:58.595 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 8: orange at (566, 365, 683, 502)
+2025-08-18 03:12:58.595 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 9: red apple at (398, 260, 506, 372)
+2025-08-18 03:12:58.595 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 10: apple at (300, 237, 417, 351)
+2025-08-18 03:12:58.595 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 11: grapes at (569, 638, 750, 804)
+2025-08-18 03:12:58.595 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 12: fruit basket at (14, 112, 973, 820)
+2025-08-18 03:12:58.595 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 13: green apple at (587, 506, 672, 642)
+2025-08-18 03:12:58.595 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 14: orange slice at (419, 516, 531, 638)
+2025-08-18 03:12:58.596 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:12:58.596 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 14 detections on image
+2025-08-18 03:12:58.596 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (225, 224)
+2025-08-18 03:12:58.596 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:12:58.596 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:12:58.598 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:12:58.598 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/14: pineapple
+2025-08-18 03:12:58.598 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=13, xmin=357, ymax=483, xmax=626
+2025-08-18 03:12:58.598 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [80, 2, 140, 108]
+2025-08-18 03:12:58.598 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for pineapple
+2025-08-18 03:12:58.599 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'pineapple' for detection 1
+2025-08-18 03:12:58.599 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/14: woven basket
+2025-08-18 03:12:58.599 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=573, xmin=133, ymax=938, xmax=813
+2025-08-18 03:12:58.599 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [29, 128, 182, 210]
+2025-08-18 03:12:58.599 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for woven basket
+2025-08-18 03:12:58.600 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'woven basket' for detection 2
+2025-08-18 03:12:58.601 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/14: bananas
+2025-08-18 03:12:58.601 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=239, xmin=597, ymax=617, xmax=818
+2025-08-18 03:12:58.601 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [134, 53, 184, 138]
+2025-08-18 03:12:58.601 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for bananas
+2025-08-18 03:12:58.601 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'bananas' for detection 3
+2025-08-18 03:12:58.602 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/14: grapes
+2025-08-18 03:12:58.602 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=542, xmin=112, ymax=810, xmax=307
+2025-08-18 03:12:58.602 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [25, 121, 69, 181]
+2025-08-18 03:12:58.602 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for grapes
+2025-08-18 03:12:58.603 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'grapes' for detection 4
+2025-08-18 03:12:58.603 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/14: purple bow
+2025-08-18 03:12:58.603 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=629, xmin=342, ymax=978, xmax=689
+2025-08-18 03:12:58.603 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [76, 140, 155, 219]
+2025-08-18 03:12:58.603 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for purple bow
+2025-08-18 03:12:58.604 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'purple bow' for detection 5
+2025-08-18 03:12:58.605 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/14: green apple
+2025-08-18 03:12:58.605 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=497, xmin=226, ymax=631, xmax=362
+2025-08-18 03:12:58.605 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [50, 111, 81, 141]
+2025-08-18 03:12:58.605 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for green apple
+2025-08-18 03:12:58.605 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'green apple' for detection 6
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/14: red apple
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=483, xmin=424, ymax=606, xmax=555
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [95, 108, 124, 135]
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for red apple
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'red apple' for detection 7
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 8/14: orange
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=566, xmin=365, ymax=683, xmax=502
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [82, 126, 112, 152]
+2025-08-18 03:12:58.606 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for orange
+2025-08-18 03:12:58.608 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'orange' for detection 8
+2025-08-18 03:12:58.608 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 9/14: red apple
+2025-08-18 03:12:58.608 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=398, xmin=260, ymax=506, xmax=372
+2025-08-18 03:12:58.608 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [58, 89, 83, 113]
+2025-08-18 03:12:58.608 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for red apple
+2025-08-18 03:12:58.609 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'red apple' for detection 9
+2025-08-18 03:12:58.609 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 10/14: apple
+2025-08-18 03:12:58.609 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=300, xmin=237, ymax=417, xmax=351
+2025-08-18 03:12:58.609 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [53, 67, 78, 93]
+2025-08-18 03:12:58.609 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for apple
+2025-08-18 03:12:58.610 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'apple' for detection 10
+2025-08-18 03:12:58.610 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 11/14: grapes
+2025-08-18 03:12:58.610 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=569, xmin=638, ymax=750, xmax=804
+2025-08-18 03:12:58.610 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [143, 127, 180, 168]
+2025-08-18 03:12:58.610 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for grapes
+2025-08-18 03:12:58.611 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'grapes' for detection 11
+2025-08-18 03:12:58.611 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 12/14: fruit basket
+2025-08-18 03:12:58.611 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=14, xmin=112, ymax=973, xmax=820
+2025-08-18 03:12:58.611 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [25, 3, 184, 217]
+2025-08-18 03:12:58.611 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for fruit basket
+2025-08-18 03:12:58.612 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'fruit basket' for detection 12
+2025-08-18 03:12:58.612 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 13/14: green apple
+2025-08-18 03:12:58.612 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=587, xmin=506, ymax=672, xmax=642
+2025-08-18 03:12:58.612 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [113, 131, 144, 150]
+2025-08-18 03:12:58.612 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for green apple
+2025-08-18 03:12:58.613 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'green apple' for detection 13
+2025-08-18 03:12:58.613 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 14/14: orange slice
+2025-08-18 03:12:58.613 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=419, xmin=516, ymax=531, xmax=638
+2025-08-18 03:12:58.613 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [116, 93, 143, 118]
+2025-08-18 03:12:58.613 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for orange slice
+2025-08-18 03:12:58.614 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'orange slice' for detection 14
+2025-08-18 03:12:58.614 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 14/14 detections in 0.02s
+2025-08-18 03:12:58.614 | INFO     | __main__:process_image:457 | 💾 Saving result to batch_results\result_fruits_basket.jpg
+2025-08-18 03:12:58.617 | SUCCESS  | __main__:process_image:460 | ✅ Successfully saved result to batch_results\result_fruits_basket.jpg
+2025-08-18 03:12:58.617 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 22.68s
+2025-08-18 03:12:58.617 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:12:58.617 | INFO     | __main__:process_image:481 |    Total objects detected: 14
+2025-08-18 03:12:58.617 | INFO     | __main__:process_image:484 |    1. pineapple
+2025-08-18 03:12:58.618 | INFO     | __main__:process_image:484 |    2. woven basket
+2025-08-18 03:12:58.618 | INFO     | __main__:process_image:484 |    3. bananas
+2025-08-18 03:12:58.618 | INFO     | __main__:process_image:484 |    4. grapes
+2025-08-18 03:12:58.618 | INFO     | __main__:process_image:484 |    5. purple bow
+2025-08-18 03:12:58.618 | INFO     | __main__:process_image:484 |    6. green apple
+2025-08-18 03:12:58.618 | INFO     | __main__:process_image:484 |    7. red apple
+2025-08-18 03:12:58.619 | INFO     | __main__:process_image:484 |    8. orange
+2025-08-18 03:12:58.619 | INFO     | __main__:process_image:484 |    9. red apple
+2025-08-18 03:12:58.619 | INFO     | __main__:process_image:484 |    10. apple
+2025-08-18 03:12:58.619 | INFO     | __main__:process_image:484 |    11. grapes
+2025-08-18 03:12:58.619 | INFO     | __main__:process_image:484 |    12. fruit basket
+2025-08-18 03:12:58.619 | INFO     | __main__:process_image:484 |    13. green apple
+2025-08-18 03:12:58.619 | INFO     | __main__:process_image:484 |    14. orange slice
+2025-08-18 03:12:58.620 | SUCCESS  | __main__:batch_process:540 | ✅ Successfully processed image 1 in 22.68s
+2025-08-18 03:12:58.620 | INFO     | __main__:batch_process:551 | 📊 Batch Processing Summary:
+2025-08-18 03:12:58.620 | INFO     | __main__:batch_process:552 |    Total images: 1
+2025-08-18 03:12:58.620 | INFO     | __main__:batch_process:553 |    Successful: 1
+2025-08-18 03:12:58.620 | INFO     | __main__:batch_process:554 |    Failed: 0
+2025-08-18 03:12:58.620 | INFO     | __main__:batch_process:555 |    Total time: 22.68s
+2025-08-18 03:12:58.621 | INFO     | __main__:batch_process:556 |    Average time per image: 22.68s
+2025-08-18 03:12:58.621 | SUCCESS  | __main__:batch_process:559 | 🎉 All images processed successfully!
+2025-08-18 03:13:52.846 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:13:58.903 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:13:58.903 | DEBUG    | __main__:__init__:115 | 🔑 API key provided 
+2025-08-18 03:14:00.161 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:14:00.161 | INFO     | __main__:batch_process:506 | 🚀 Starting batch processing of 1 images
+2025-08-18 03:14:00.163 | INFO     | __main__:batch_process:507 | 📁 Output directory: batch_results
+2025-08-18 03:14:00.163 | DEBUG    | __main__:batch_process:512 | ✅ Created/verified output directory: batch_results
+2025-08-18 03:14:00.164 | INFO     | __main__:batch_process:522 | 🔄 Processing image 1/1
+2025-08-18 03:14:00.164 | DEBUG    | __main__:batch_process:523 | 📋 Current image source type: <class 'str'>
+2025-08-18 03:14:00.164 | DEBUG    | __main__:batch_process:533 | 💾 Will save to: batch_results\result_potholes.jpg
+2025-08-18 03:14:00.164 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:14:00.164 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:14:00.165 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:14:00.165 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\potholes.jpg
+2025-08-18 03:14:00.165 | DEBUG    | __main__:load_image:158 | 📊 File size: 11678 bytes
+2025-08-18 03:14:00.165 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 11678 bytes from file
+2025-08-18 03:14:00.166 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:14:00.174 | DEBUG    | __main__:load_image:176 | 📏 Image dimensions: 300x168
+2025-08-18 03:14:00.174 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:14:00.175 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.01s
+2025-08-18 03:14:00.175 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:14:00.175 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:14:00.175 | INFO     | __main__:detect_objects:227 | 📝 Using default detection prompt
+2025-08-18 03:14:00.175 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:14:00.176 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:14:36.567 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 36.39s
+2025-08-18 03:14:36.568 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 415 characters
+2025-08-18 03:14:36.568 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+  {"box_2d": [140, 0, 1000, 1000], "label": "damaged road with potholes"},
+  {"box_2d": [63, 252, 358, 339], "label": "motor scooter"},
+  {"box_2d": [33, 772, 194, 915], "label": "car"},
+  {...
+2025-08-18 03:14:36.568 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:14:36.569 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:14:36.569 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 415
+2025-08-18 03:14:36.569 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:14:36.569 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+  {"box_2d": [140, 0, 1000, 1000], "label": "damaged road with potholes"},
+  {"box_2d": [63, 252, 358, 339], "label": "motor scooter"},
+  {"box_2d": [33, 772, 194, 915], "label": "car"},
+  {"box_2d"...
+2025-08-18 03:14:36.570 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:14:36.570 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 7 detections
+2025-08-18 03:14:36.570 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: damaged road with potholes at (140, 0, 1000, 1000)
+2025-08-18 03:14:36.570 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: motor scooter at (63, 252, 358, 339)
+2025-08-18 03:14:36.570 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: car at (33, 772, 194, 915)
+2025-08-18 03:14:36.571 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: car at (47, 370, 210, 467)
+2025-08-18 03:14:36.571 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: motor scooter at (63, 137, 266, 206)
+2025-08-18 03:14:36.571 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: car at (57, 458, 154, 512)
+2025-08-18 03:14:36.571 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: car at (66, 523, 140, 574)
+2025-08-18 03:14:36.571 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:14:36.571 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 7 detections on image
+2025-08-18 03:14:36.571 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (300, 168)
+2025-08-18 03:14:36.571 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:14:36.571 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:14:36.573 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:14:36.574 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/7: damaged road with potholes
+2025-08-18 03:14:36.574 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=140, xmin=0, ymax=1000, xmax=1000
+2025-08-18 03:14:36.574 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [0, 23, 300, 168]
+2025-08-18 03:14:36.574 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for damaged road with potholes
+2025-08-18 03:14:36.576 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'damaged road with potholes' for detection 1
+2025-08-18 03:14:36.576 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/7: motor scooter
+2025-08-18 03:14:36.576 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=63, xmin=252, ymax=358, xmax=339
+2025-08-18 03:14:36.576 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [75, 10, 101, 60]
+2025-08-18 03:14:36.576 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for motor scooter
+2025-08-18 03:14:36.577 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'motor scooter' for detection 2
+2025-08-18 03:14:36.577 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/7: car
+2025-08-18 03:14:36.577 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=33, xmin=772, ymax=194, xmax=915
+2025-08-18 03:14:36.577 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [231, 5, 274, 32]
+2025-08-18 03:14:36.577 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:14:36.578 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 3
+2025-08-18 03:14:36.578 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/7: car
+2025-08-18 03:14:36.578 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=47, xmin=370, ymax=210, xmax=467
+2025-08-18 03:14:36.578 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [111, 7, 140, 35]
+2025-08-18 03:14:36.578 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:14:36.578 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 4
+2025-08-18 03:14:36.579 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/7: motor scooter
+2025-08-18 03:14:36.579 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=63, xmin=137, ymax=266, xmax=206
+2025-08-18 03:14:36.579 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [41, 10, 61, 44]
+2025-08-18 03:14:36.579 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for motor scooter
+2025-08-18 03:14:36.579 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'motor scooter' for detection 5
+2025-08-18 03:14:36.580 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/7: car
+2025-08-18 03:14:36.580 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=57, xmin=458, ymax=154, xmax=512
+2025-08-18 03:14:36.580 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [137, 9, 153, 25]
+2025-08-18 03:14:36.580 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:14:36.580 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 6
+2025-08-18 03:14:36.580 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/7: car
+2025-08-18 03:14:36.580 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=66, xmin=523, ymax=140, xmax=574
+2025-08-18 03:14:36.581 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [156, 11, 172, 23]
+2025-08-18 03:14:36.581 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for car
+2025-08-18 03:14:36.581 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'car' for detection 7
+2025-08-18 03:14:36.581 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 7/7 detections in 0.01s
+2025-08-18 03:14:36.581 | INFO     | __main__:process_image:457 | 💾 Saving result to batch_results\result_potholes.jpg
+2025-08-18 03:14:36.585 | SUCCESS  | __main__:process_image:460 | ✅ Successfully saved result to batch_results\result_potholes.jpg
+2025-08-18 03:14:36.585 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 36.42s
+2025-08-18 03:14:36.585 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:14:36.585 | INFO     | __main__:process_image:481 |    Total objects detected: 7
+2025-08-18 03:14:36.586 | INFO     | __main__:process_image:484 |    1. damaged road with potholes
+2025-08-18 03:14:36.586 | INFO     | __main__:process_image:484 |    2. motor scooter
+2025-08-18 03:14:36.586 | INFO     | __main__:process_image:484 |    3. car
+2025-08-18 03:14:36.586 | INFO     | __main__:process_image:484 |    4. car
+2025-08-18 03:14:36.586 | INFO     | __main__:process_image:484 |    5. motor scooter
+2025-08-18 03:14:36.586 | INFO     | __main__:process_image:484 |    6. car
+2025-08-18 03:14:36.587 | INFO     | __main__:process_image:484 |    7. car
+2025-08-18 03:14:36.587 | SUCCESS  | __main__:batch_process:540 | ✅ Successfully processed image 1 in 36.42s
+2025-08-18 03:14:36.587 | INFO     | __main__:batch_process:551 | 📊 Batch Processing Summary:
+2025-08-18 03:14:36.587 | INFO     | __main__:batch_process:552 |    Total images: 1
+2025-08-18 03:14:36.587 | INFO     | __main__:batch_process:553 |    Successful: 1
+2025-08-18 03:14:36.587 | INFO     | __main__:batch_process:554 |    Failed: 0
+2025-08-18 03:14:36.587 | INFO     | __main__:batch_process:555 |    Total time: 36.43s
+2025-08-18 03:14:36.587 | INFO     | __main__:batch_process:556 |    Average time per image: 36.43s
+2025-08-18 03:14:36.588 | SUCCESS  | __main__:batch_process:559 | 🎉 All images processed successfully!
+2025-08-18 03:15:29.799 | INFO     | __main__:setup_logging:72 | 🚀 Logging system initialized
+2025-08-18 03:15:32.229 | INFO     | __main__:__init__:109 | 🔧 Initializing ObjectDetectionAgent
+2025-08-18 03:15:32.229 | DEBUG    | __main__:__init__:115 | 🔑 API key provided 
+2025-08-18 03:15:33.450 | SUCCESS  | __main__:__init__:120 | ✅ Successfully initialized Gemini client with model: gemini-2.5-pro
+2025-08-18 03:15:33.451 | INFO     | __main__:batch_process:506 | 🚀 Starting batch processing of 1 images
+2025-08-18 03:15:33.451 | INFO     | __main__:batch_process:507 | 📁 Output directory: batch_results
+2025-08-18 03:15:33.452 | DEBUG    | __main__:batch_process:512 | ✅ Created/verified output directory: batch_results
+2025-08-18 03:15:33.452 | INFO     | __main__:batch_process:522 | 🔄 Processing image 1/1
+2025-08-18 03:15:33.452 | DEBUG    | __main__:batch_process:523 | 📋 Current image source type: <class 'str'>
+2025-08-18 03:15:33.452 | DEBUG    | __main__:batch_process:533 | 💾 Will save to: batch_results\result_Construction-workers.jpg
+2025-08-18 03:15:33.452 | INFO     | __main__:process_image:432 | 🚀 Starting complete image processing pipeline
+2025-08-18 03:15:33.454 | INFO     | __main__:process_image:436 | 🔄 Step 1/4: Loading image...
+2025-08-18 03:15:33.454 | INFO     | __main__:load_image:136 | 📥 Starting image loading process
+2025-08-18 03:15:33.454 | INFO     | __main__:load_image:151 | 📁 Loading image from file: C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\Construction-workers.jpg
+2025-08-18 03:15:33.454 | DEBUG    | __main__:load_image:158 | 📊 File size: 674914 bytes
+2025-08-18 03:15:33.455 | DEBUG    | __main__:load_image:163 | 📖 Successfully read 674914 bytes from file
+2025-08-18 03:15:33.455 | DEBUG    | __main__:load_image:173 | 🖼️ Converting bytes to PIL Image
+2025-08-18 03:15:33.469 | DEBUG    | __main__:load_image:176 | 📏 Image dimensions: 1200x676
+2025-08-18 03:15:33.469 | DEBUG    | __main__:load_image:177 | 🎨 Image mode: RGB
+2025-08-18 03:15:33.470 | SUCCESS  | __main__:load_image:180 | ✅ Image loaded successfully in 0.02s
+2025-08-18 03:15:33.470 | INFO     | __main__:process_image:440 | 🔄 Step 2/4: Detecting objects...
+2025-08-18 03:15:33.470 | INFO     | __main__:detect_objects:206 | 🤖 Starting object detection with Gemini API
+2025-08-18 03:15:33.470 | INFO     | __main__:detect_objects:227 | 📝 Using default detection prompt
+2025-08-18 03:15:33.470 | DEBUG    | __main__:detect_objects:229 | 🎯 Model: gemini-2.5-pro
+2025-08-18 03:15:33.471 | DEBUG    | __main__:detect_objects:230 | 📤 Sending request to Gemini API
+2025-08-18 03:15:53.997 | SUCCESS  | __main__:detect_objects:242 | ✅ Received response from Gemini API in 20.53s
+2025-08-18 03:15:53.998 | DEBUG    | __main__:detect_objects:243 | 📊 Response length: 569 characters
+2025-08-18 03:15:53.998 | DEBUG    | __main__:detect_objects:244 | 📋 Response preview: ```json
+[
+    {"box_2d": [302, 0, 856, 244], "label": "construction worker"},
+    {"box_2d": [393, 362, 966, 584], "label": "construction worker"},
+    {"box_2d": [128, 140, 551, 419], "label": "concr...
+2025-08-18 03:15:53.998 | INFO     | __main__:process_image:444 | 🔄 Step 3/4: Parsing and validating detections...
+2025-08-18 03:15:53.999 | INFO     | __main__:parse_detections:265 | 🔍 Starting detection parsing and validation
+2025-08-18 03:15:53.999 | DEBUG    | __main__:parse_detections:266 | 📄 Input response length: 569
+2025-08-18 03:15:53.999 | DEBUG    | __main__:parse_detections:273 | 🧹 Searching for JSON content in response
+2025-08-18 03:15:54.000 | DEBUG    | __main__:parse_detections:289 | 📦 Extracted JSON string: [
+    {"box_2d": [302, 0, 856, 244], "label": "construction worker"},
+    {"box_2d": [393, 362, 966, 584], "label": "construction worker"},
+    {"box_2d": [128, 140, 551, 419], "label": "concrete buck...
+2025-08-18 03:15:54.000 | DEBUG    | __main__:parse_detections:290 | 🔧 Attempting Pydantic validation
+2025-08-18 03:15:54.000 | SUCCESS  | __main__:parse_detections:297 | ✅ Successfully parsed and validated 8 detections
+2025-08-18 03:15:54.000 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 1: construction worker at (302, 0, 856, 244)
+2025-08-18 03:15:54.001 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 2: construction worker at (393, 362, 966, 584)
+2025-08-18 03:15:54.001 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 3: concrete bucket at (128, 140, 551, 419)
+2025-08-18 03:15:54.001 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 4: construction worker at (188, 108, 695, 235)
+2025-08-18 03:15:54.001 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 5: construction worker at (140, 361, 418, 541)
+2025-08-18 03:15:54.001 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 6: construction worker at (611, 759, 1000, 939)
+2025-08-18 03:15:54.001 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 7: construction worker at (146, 634, 500, 709)
+2025-08-18 03:15:54.001 | DEBUG    | __main__:parse_detections:301 | 🎯 Detection 8: construction worker at (102, 608, 430, 663)
+2025-08-18 03:15:54.001 | INFO     | __main__:process_image:452 | 🔄 Step 4/4: Drawing bounding boxes...
+2025-08-18 03:15:54.001 | INFO     | __main__:draw_detections:333 | 🎨 Starting to draw 8 detections on image
+2025-08-18 03:15:54.002 | DEBUG    | __main__:draw_detections:334 | 🖼️ Image size: (1200, 676)
+2025-08-18 03:15:54.002 | DEBUG    | __main__:draw_detections:335 | 🎨 Drawing parameters - box_color: red, text_color: white, box_width: 3
+2025-08-18 03:15:54.002 | DEBUG    | __main__:draw_detections:345 | 🔤 Loading font for text rendering
+2025-08-18 03:15:54.005 | DEBUG    | __main__:draw_detections:348 | ✅ Successfully loaded arial.ttf font
+2025-08-18 03:15:54.005 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 1/8: construction worker
+2025-08-18 03:15:54.005 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=302, xmin=0, ymax=856, xmax=244
+2025-08-18 03:15:54.005 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [0, 204, 292, 578]
+2025-08-18 03:15:54.006 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:15:54.007 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 1
+2025-08-18 03:15:54.007 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 2/8: construction worker
+2025-08-18 03:15:54.007 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=393, xmin=362, ymax=966, xmax=584
+2025-08-18 03:15:54.008 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [434, 265, 700, 653]
+2025-08-18 03:15:54.008 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:15:54.010 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 2
+2025-08-18 03:15:54.010 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 3/8: concrete bucket
+2025-08-18 03:15:54.010 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=128, xmin=140, ymax=551, xmax=419
+2025-08-18 03:15:54.010 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [168, 86, 502, 372]
+2025-08-18 03:15:54.010 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for concrete bucket
+2025-08-18 03:15:54.011 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'concrete bucket' for detection 3
+2025-08-18 03:15:54.011 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 4/8: construction worker
+2025-08-18 03:15:54.011 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=188, xmin=108, ymax=695, xmax=235
+2025-08-18 03:15:54.012 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [129, 127, 282, 469]
+2025-08-18 03:15:54.012 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:15:54.013 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 4
+2025-08-18 03:15:54.013 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 5/8: construction worker
+2025-08-18 03:15:54.013 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=140, xmin=361, ymax=418, xmax=541
+2025-08-18 03:15:54.013 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [433, 94, 649, 282]
+2025-08-18 03:15:54.014 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:15:54.015 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 5
+2025-08-18 03:15:54.016 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 6/8: construction worker
+2025-08-18 03:15:54.016 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=611, xmin=759, ymax=1000, xmax=939
+2025-08-18 03:15:54.016 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [910, 413, 1126, 676]
+2025-08-18 03:15:54.016 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:15:54.017 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 6
+2025-08-18 03:15:54.018 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 7/8: construction worker
+2025-08-18 03:15:54.018 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=146, xmin=634, ymax=500, xmax=709
+2025-08-18 03:15:54.018 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [760, 98, 850, 338]
+2025-08-18 03:15:54.018 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:15:54.019 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 7
+2025-08-18 03:15:54.020 | DEBUG    | __main__:draw_detections:356 | 🎯 Drawing detection 8/8: construction worker
+2025-08-18 03:15:54.020 | DEBUG    | __main__:draw_detections:364 | 📦 Normalized coordinates: ymin=102, xmin=608, ymax=430, xmax=663
+2025-08-18 03:15:54.020 | DEBUG    | __main__:draw_detections:371 | 📏 Pixel coordinates: [729, 68, 795, 290]
+2025-08-18 03:15:54.020 | DEBUG    | __main__:draw_detections:382 | 📦 Drew bounding box for construction worker
+2025-08-18 03:15:54.021 | DEBUG    | __main__:draw_detections:400 | 📝 Drew label 'construction worker' for detection 8
+2025-08-18 03:15:54.022 | SUCCESS  | __main__:draw_detections:408 | ✅ Successfully drew 8/8 detections in 0.02s
+2025-08-18 03:15:54.022 | INFO     | __main__:process_image:457 | 💾 Saving result to batch_results\result_Construction-workers.jpg
+2025-08-18 03:15:54.026 | SUCCESS  | __main__:process_image:460 | ✅ Successfully saved result to batch_results\result_Construction-workers.jpg
+2025-08-18 03:15:54.027 | SUCCESS  | __main__:process_image:479 | 🎉 Pipeline completed successfully in 20.57s
+2025-08-18 03:15:54.027 | INFO     | __main__:process_image:480 | 📊 Detection Summary:
+2025-08-18 03:15:54.027 | INFO     | __main__:process_image:481 |    Total objects detected: 8
+2025-08-18 03:15:54.027 | INFO     | __main__:process_image:484 |    1. construction worker
+2025-08-18 03:15:54.027 | INFO     | __main__:process_image:484 |    2. construction worker
+2025-08-18 03:15:54.027 | INFO     | __main__:process_image:484 |    3. concrete bucket
+2025-08-18 03:15:54.027 | INFO     | __main__:process_image:484 |    4. construction worker
+2025-08-18 03:15:54.029 | INFO     | __main__:process_image:484 |    5. construction worker
+2025-08-18 03:15:54.029 | INFO     | __main__:process_image:484 |    6. construction worker
+2025-08-18 03:15:54.029 | INFO     | __main__:process_image:484 |    7. construction worker
+2025-08-18 03:15:54.029 | INFO     | __main__:process_image:484 |    8. construction worker
+2025-08-18 03:15:54.029 | SUCCESS  | __main__:batch_process:540 | ✅ Successfully processed image 1 in 20.58s
+2025-08-18 03:15:54.030 | INFO     | __main__:batch_process:551 | 📊 Batch Processing Summary:
+2025-08-18 03:15:54.030 | INFO     | __main__:batch_process:552 |    Total images: 1
+2025-08-18 03:15:54.030 | INFO     | __main__:batch_process:553 |    Successful: 1
+2025-08-18 03:15:54.030 | INFO     | __main__:batch_process:554 |    Failed: 0
+2025-08-18 03:15:54.030 | INFO     | __main__:batch_process:555 |    Total time: 20.58s
+2025-08-18 03:15:54.030 | INFO     | __main__:batch_process:556 |    Average time per image: 20.58s
+2025-08-18 03:15:54.031 | SUCCESS  | __main__:batch_process:559 | 🎉 All images processed successfully!

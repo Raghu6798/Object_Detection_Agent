@@ -1,0 +1,24 @@
+[project]
+name = "Computer_Vision_Agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=1.30.0",
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.1.9",
+    "langchain-openai>=0.3.30",
+    "langgraph>=0.6.5",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.5",
+    "mediapipe>=0.10.21",
+    "numpy>=1.26.4",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.3.0",
+    "pip>=25.2",
+    "poml>=0.0.7",
+    "python-dotenv>=1.1.1",
+    "tree-sitter>=0.25.1",
+    "tree-sitter-languages>=1.10.2",
+]
