@@ -871,7 +871,7 @@ def main():
 
   
     # Example image paths (update these to your actual image paths)
-    image_path = r"C:\Users\Raghu\Downloads\Incidence_response_agent\Computer_Vision_Agent\assets\Construction-workers.jpg"
+    image_path = r"\Computer_Vision_Agent\assets\Construction-workers.jpg"
     
     # Example 1: Construction safety analysis with saving
     print("🔍 Analyzing construction site for safety compliance...")
