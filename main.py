@@ -861,28 +861,78 @@ def create_detection_agent():
     return agent
 
 def main():
-    """Example usage of the detection agent."""
+    """Example usage of the detection agent for a medical imaging task."""
     
     # Check required environment variables
     api_key = os.getenv("GOOGLE_API_KEY")
-    
-    # Create the agent
-    agent = create_detection_agent()
+    if not api_key:
+        logger.critical("❌ GOOGLE_API_KEY environment variable not set!")
+        return
 
-  
-    # Example image paths (update these to your actual image paths)
-    image_path = r"\Computer_Vision_Agent\assets\Construction-workers.jpg"
+    # 1. Create an instance of your object detection logic
+    try:
+        detection_service = ObjectDetectionAgent(api_key=api_key)
+        logger.info("✅ Object Detection service initialized.")
+    except Exception as e:
+        logger.error(f"🔥 Failed to initialize the detection service: {e}")
+        return
+
+    # 2. Define the image and the new custom radiology prompt
+    image_path = r"C:\\Users\\Raghu\\Downloads\\Incidence_response_agent\\Computer_Vision_Agent\\assets\\Construction-workers.jpg"
+    output_dir = "batch_results"
     
-    # Example 1: Construction safety analysis with saving
-    print("🔍 Analyzing construction site for safety compliance...")
-    batch_response = agent.invoke({
-        "messages": [{
-            "role": "user",
-            "content": f"Use batch_detect_objects to process the image '{image_path}' and save results to 'batch_results' directory"
-        }]
-    })
+    # A robust, specific prompt for the radiology task
+    custom_radiology_prompt = """
+    You are a highly-efficient and accurate computer vision AI. Your sole purpose is to analyze an image, identify all distinct and prominent objects, and return their locations and labels in a structured format.
+
+**Your Goal:**
+Detect all significant objects in the provided image. For objects that are part of a group (e.g., a crowd of people, a fleet of cars), identify the most distinct instances.
+
+**Output Requirements (Strictly Enforced):**
+For each object you detect, you MUST provide:
+1.  `box_2d`: A bounding box in the precise format `[ymin, xmin, ymax, xmax]`, with coordinates normalized to a 0-1000 scale.
+2.  `label`: A common, descriptive, lowercase name for the object (e.g., 'car', 'person', 'tree', 'building').
+
+**CRITICAL INSTRUCTION:**
+Your entire response MUST be ONLY a valid JSON array of detection objects.
+- Do NOT include any introductory text, explanations, summaries, markdown code fences (like ```json), or any text whatsoever outside of the JSON array.
+- Your response must begin with `[` and end with `]`.
+- If no objects are confidently detected, you MUST return an empty array: `[]`.
+
+**Example of a valid response for an image containing a person and a bicycle:**
+[
+    {"box_2d":, "label": "person"},
+    {"box_2d":, "label": "bicycle"}
+]
+    """
+
+    # 3. Call the processing method directly
+    print(f"🔍 Analyzing image '{os.path.basename(image_path)}'...")
     
-    print("Response:", batch_response)
+    try:
+        # Define where to save the output image
+        output_filename = f"detected_{os.path.basename(image_path)}"
+        save_path = os.path.join(output_dir, output_filename)
+        
+        # Ensure the output directory exists
+        os.makedirs(output_dir, exist_ok=True)
+
+        # Call your reliable Python code directly
+        result_image, detections = detection_service.process_image(
+            image_source=image_path,
+            custom_prompt=custom_radiology_prompt,
+            show_result=True,
+            save_path=save_path
+        )
+
+        if detections:
+            print(f"✅ Analysis complete. Found {len(detections)} potential anomalies. Result saved to '{save_path}'")
+        else:
+            print(f"⚠️ Analysis complete, but no valid anomalies were detected or returned by the model.")
+
+    except Exception as e:
+        print(f"❌ An error occurred during image processing: {e}")
+
 
 if __name__ == "__main__":
     main()
